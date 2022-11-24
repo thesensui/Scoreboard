@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    color: #eeeeee;
+    background-image: url("https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2019/05/28/quadra.jpg");
+    background-size: 100%;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.board-title-home {
+    /* board-title-home */
+
+width: 169px;
+height: 21px;
+left: 85px;
+top: 168px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+margin-bottom: 10px;
+
+/* identical to box height, or 90% */
+text-align: center;
+
+color: #EEEEEE;
+}
+
+.home-score1 {
+    /* home-points-text */
+margin-top: 41px;
+width: 140px;
+height: 120px;
+left: 355px;
+top: 125px;
+
+font-family: 'Wallpoet', cursive;
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+margin-bottom: 26px;
+/* or 141% */
+text-align: center;
+
+color: #F94F6D;
+background: black;
+padding: 0px 18px 0px 18px;
+border: 3px solid white;
+}
+
+.home-score {
+    /* home-score */
+width: 155px;
+height: 120px;
+left: 337px;
+top: 125px;
+
+
+}
+
+.add-points-btn-home {
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.btn:hover {
+    color: #D56AA0;
+    border-color: #D56AA0;
+}
+
+ .btn {
+
+
+
+box-sizing: border-box;
+font-family: 'Wallpoet', cursive;
+font-style: normal;
+
+width: 45px;
+height: 45px;
+left: 136px;
+top: 271px;
+
+border: 2px solid #9AABD8;
+border-radius: 5px;
+color: #9AABD8;
+background: #1B244A;
+} 
+
+#new-btn {
+    display: flex;
+    background: #D56AA0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    color: #eeeeee;
+    text-shadow: 0px 0px 10px black;
+    
+}
+
+#new-btn:hover {
+    border: 3px solid #F94F6D;
+}
