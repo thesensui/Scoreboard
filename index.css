@@ -1,20 +1,21 @@
 body {
     margin: 0;
     text-align: center;
-    height: 100vw;
+    height: 0vw;
     background: #1B244A;
     color: #eeeeee;
     background-image: url("https://images.unsplash.com/photo-1574623452334-1e0ac2b3ccb4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80");
-    background-size: 100%;
+    background-size: cover;
 }
 
 
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: center;
     margin-top: 200px;
+    padding: 40px
 
 }
 
@@ -110,14 +111,16 @@ background: #1B244A;
     background: #D56AA0;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 30px;
     padding: 20px 10px;
     border-radius: 10px;
     color: #eeeeee;
     text-shadow: 0px 0px 10px black;
+    margin-bottom: 0px;
     
 }
 
 #new-btn:hover {
     border: 3px solid #F94F6D;
 }
+
